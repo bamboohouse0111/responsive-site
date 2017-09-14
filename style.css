@@ -1,0 +1,70 @@
+@import url(https://fonts.googleapis.com/css?family=Abel);
+html {
+  font-size: 62.5%; }
+
+.site-top {
+  background-image: url("./images/burger-2667443_1280.jpg");
+  height: 500px;
+  width: 100%;
+  background-size: cover;
+  background-position: center center; }
+
+@media (max-width: 768px) {
+  .site-top {
+    height: 250px;
+    width: 100%; } }
+#menu h2 {
+  color: #E83E0F;
+  font-size: 50px;
+  text-align: center;
+  margin: 20px 0 7px 0; }
+#menu .clearfix::after {
+  content: '';
+  display: block;
+  clear: both; }
+#menu .menu-box {
+  float: left;
+  width: 30%;
+  height: 250px;
+  padding: 3px;
+  margin: 10px; }
+#menu .clearfix::after {
+  content: '';
+  display: block;
+  clear: both; }
+#menu h3 {
+  color: #1EB533;
+  font-size: 25px;
+  text-align: center; }
+#menu p {
+  font-size: 10px;
+  padding: 3%; }
+@media (max-width: 768px) {
+  #menu .menu-box {
+    width: 100%;
+    max-width: 90%;
+    height: auto; } }
+
+#link {
+  margin: 25px; }
+  #link h2 {
+    color: #E83E0F;
+    font-size: 50px;
+    text-align: center; }
+  #link .button-map {
+    margin: auto;
+    text-align: center;
+    padding: 25px;
+    width: 180px;
+    display: block;
+    color: #FFF;
+    font-weight: bold;
+    background-color: #BE4FA3;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    font-size: 20px; }
+
+/*# sourceMappingURL=style.css.map */
+
+/*# sourceMappingURL=style.css.map */
